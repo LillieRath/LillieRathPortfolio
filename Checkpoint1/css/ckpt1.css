@@ -23,4 +23,29 @@ body {
     color: #26241C;
     background-color: lavender;
 }
+nav{
+     background-color: rgb(168, 137, 214);
+     border: dashed 5pt black;
+}
+a {
+    color:black;
+    padding: 13pt;
+    margin: 13pt;
+}
 
+ .btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .btn-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width:100%;
+    gap:10px;
+  }
