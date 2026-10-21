@@ -10,9 +10,12 @@ for now, you can leave these alone */
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
-
+ h1{
+    font-size: 48pt;
+    color: black;
+    border: dotted 5pt black;
+ }
 body {
-    font-size: 24pt;
     color: #26241C;
     background-color: #F2F0D8;
 }
@@ -28,10 +31,11 @@ section{
 
 }
 nav{
+    font-size:14pt;
      background-color: rgb(168, 137, 214);
      border: dashed 5pt black;
 }
-nav a {
+a {
     color:black;
     padding: 13pt;
     margin: 13pt;

@@ -18,11 +18,11 @@ go ahead and play with these, can you get the colors to change? What do you noti
  }
 
 body {
-    font-size: 24pt;
     color: #26241C;
     background-color: #F2F0D8;
 }
 nav{
+    font-size:14pt;
      background-color: rgb(168, 137, 214);
      border: dashed 5pt black;
 }
