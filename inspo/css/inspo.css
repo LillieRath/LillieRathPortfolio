@@ -40,6 +40,10 @@ a {
     padding: 13pt;
     margin: 13pt;
 }
+img {
+width: 500px;
+height:250x;
+}
 
  .btn-link {
     display: inline-block;
