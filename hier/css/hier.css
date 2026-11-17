@@ -13,16 +13,15 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
  h1{
     font-size: 48pt;
-    color: #0b1209;
+    color: #380817;
     text-align:center;
-    border: dotted 5pt black;
-    background-color:#8a7750;
+    border: dotted 5pt #26241C;
+    background-color:#87646d;
     padding: 10pt;
      position:absolute;
      top: 20px;
      right: 5px;
      z-index:1000;
-
  }
 
 body {
@@ -35,8 +34,8 @@ body {
 }
 nav{
     font-size:14pt;
-     background-color:#87646d;
-     border: dashed 5pt black;
+     background-color:#380817;
+     border: dotted 5pt #8a8850;
      padding: 13pt;
      margin:13pt;
      position:absolute;
@@ -53,6 +52,7 @@ a {
 }
 section {
  background-color:#8a7750;
+ border: dotted 5pt #26241c;
     padding:10px 20px;
    margin: 200px;
    margin-right: 200px;
@@ -60,23 +60,22 @@ section {
 }
 footer {
  background-color:#87646d;
+ border:dotted 5pt #26241c;
     padding:10px 20px;
    margin: 20px;
    margin-right: 25px;
 }
  .btn-link {
     padding: 10px 20px;
-    background-color: #8a7750;
+    background-color: #87646d;
     color: black;
     text-decoration: none;
     border-radius: 5px;
-  }
+    cursor:pointer;
+    transition-duration:1.5s;
+ }
 
-  /* .btn-container {
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-start;
-    width:100%;
-    gap:10px;
-  } */
-
+.btn-link:hover{
+    background-color: #8a7750;
+    transform:translate(0.25s);
+}
